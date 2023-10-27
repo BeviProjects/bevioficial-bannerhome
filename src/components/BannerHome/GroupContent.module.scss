@@ -1,0 +1,48 @@
+.Quote {
+	--_width: 0.375rem;
+	--_bgc: var(--bv-violet-40);
+
+	padding-left: calc(var(--_width) + 1rem);
+
+	&::before {
+		content: '';
+		width: 0.375rem;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: var(--_bgc);
+	}
+
+	&[data-theme='one'],
+	&[data-theme='three'],
+	&[data-theme='four'],
+	&[data-theme='five'],
+	&[data-theme='nine'],
+	&[data-theme='eleven'],
+	&[data-theme='fourteen'],
+	&[data-theme='fifteen'] {
+		--_bgc: var(--bv-violet-40);
+	}
+
+	&[data-theme='two'],
+	&[data-theme='eight'],
+	&[data-theme='ten'],
+	&[data-theme='thirteen'] {
+		--_bgc: var(--bv-primary-01);
+	}
+
+	&[data-theme='six'],
+	&[data-theme='seven'] {
+		--_bgc: var(--bv-primary-02);
+	}
+
+	&[data-theme='twelve'],
+	&[data-theme='sixteen'] {
+		padding: 0;
+
+		&::before {
+			content: none;
+		}
+	}
+}

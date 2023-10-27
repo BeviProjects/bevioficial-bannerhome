@@ -1,0 +1,68 @@
+.Root {
+	background: {
+		repeat: no-repeat;
+		position: center;
+		size: cover;
+	}
+
+	&[data-theme='one'] {
+		background-color: var(--bv-primary-01);
+	}
+	&[data-theme='two'] {
+		background-color: var(--bv-primary-02);
+	}
+	&[data-theme='three'] {
+		background-color: var(--bv-violet-40);
+	}
+	&[data-theme='four'] {
+		background-image: url('../../../../public/image/background/bg-pattern-01.jpg');
+	}
+	&[data-theme='five'] {
+		background-image: url('../../../../public/image/background/bg-pattern-02.jpg');
+	}
+	&[data-theme='six'] {
+		background-image: url('../../../../public/image/background/bg-pattern-03.jpg');
+	}
+	&[data-theme='seven'] {
+		background-image: url('../../../../public/image/background/bg-pattern-04.jpg');
+	}
+	&[data-theme='eight'] {
+		background-image: url('../../../../public/image/background/bg-pattern-05.jpg');
+	}
+	&[data-theme='nine'] {
+		background-image: url('../../../../public/image/background/bg-pattern-06.jpg');
+	}
+	&[data-theme='ten'] {
+		background-image: url('../../../../public/image/background/bg-pattern-07.jpg');
+	}
+	&[data-theme='eleven'] {
+		background-image: url('../../../../public/image/background/bg-pattern-09.jpg');
+	}
+	&[data-theme='twelve'] {
+		background-image: url('../../../../public/image/background/bg-pattern-10.jpg');
+	}
+	&[data-theme='thirteen'] {
+		background: linear-gradient(
+			259deg,
+			hsl(185, 72%, 50%) 10.2%,
+			hsl(185, 71%, 70%) 74.47%
+		);
+	}
+	&[data-theme='fourteen'] {
+		background: linear-gradient(
+			270deg,
+			hsl(238, 33%, 20%) 0%,
+			hsl(238, 33%, 40%) 100%
+		);
+	}
+	&[data-theme='fifteen'] {
+		background: linear-gradient(
+			270deg,
+			hsl(230, 90%, 20%) 0%,
+			hsl(238, 33%, 20%) 100%
+		);
+	}
+	&[data-theme='sixteen'] {
+		background-color: var(--bv-primary-01);
+	}
+}
