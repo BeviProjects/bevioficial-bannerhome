@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { BannerHome } from './components/BannerHome'
 
 type bannerType = {
@@ -41,7 +39,7 @@ type theme =
 const data: bannerType[] = [
 	{
 		id: '1',
-		icon: 'arrowCircleRight',
+		icon: 'bank',
 		title: 'Vem pra Bevi',
 		description:
 			'Enter a catchy caption for your customers here. Be creative and share good ideas.',
@@ -59,7 +57,7 @@ const data: bannerType[] = [
 	},
 	{
 		id: '2',
-		icon: 'arrowCircleRight',
+		icon: 'bank',
 		title: 'Vem pra Bevi',
 		description:
 			'Enter a catchy caption for your customers here. Be creative and share good ideas.',
@@ -77,7 +75,7 @@ const data: bannerType[] = [
 	},
 	{
 		id: '3',
-		icon: 'arrowCircleRight',
+		icon: 'bank',
 		title: 'Vem pra Bevi',
 		description:
 			'Enter a catchy caption for your customers here. Be creative and share good ideas.',
